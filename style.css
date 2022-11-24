@@ -9,7 +9,7 @@ body {
     align-items: center;
     margin-top: 10px;
     background-color: #1F2937;
-    margin: 50px;
+    margin-bottom: 50px;
 }
 
 .header-left{
@@ -23,11 +23,12 @@ body {
     display: flex;
     gap: 15px;
 }
+
 .section-one{
     display: flex;
     background-color: #1F2937;
     flex-direction: column;
-
+    padding-bottom: 75px;
 }
 
 .section-hero{
@@ -59,9 +60,45 @@ body {
     align-self: baseline;
 }
 
-img{
-    width: 300px;
-    height: 200px;
+
+/*Figure out how to create modifiable image element 
+.jpeg{
+    width: 400px;
+    height: 300px;
+}
+*/
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.images{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Figure out how to create modifiable img element for border */
+.image-container-one, .image-container-two, .image-container-three, .image-container-four{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.section-three{
+    
 }
 
 a {
