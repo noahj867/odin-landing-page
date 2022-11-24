@@ -58,6 +58,13 @@ body {
 
 .signup{
     align-self: baseline;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    /* figure out how to do padding in all directions using padding command*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 
@@ -73,6 +80,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 75px;
+    padding-top: 35px;
 }
 
 .section-title{
@@ -98,7 +107,77 @@ body {
 }
 
 .section-three{
-    
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-bottom: 75px;
+    padding-top: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: lighter italic;
+    color: #1F2937;
+    max-width: 600px
+}
+
+.author{
+    display: flex;
+    margin-left: auto;
+    max-width: 600px;
+    margin-left: 600px;
+    margin-right: 300px;
+}
+
+.section-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* figure out how to do padding in all directions using padding command*/
+    padding-bottom: 75px;
+    padding-top: 75px;
+    padding-left: px;
+}
+
+.block{
+    background-color:#3275e1;
+    display: flex;
+    width: 1000px;
+    height: 60px;
+    align-self: center;
+    justify-content: space-evenly;
+    /* figure out how to do padding in all directions using padding command*/
+    padding: 50px;
+    color: white;
+}
+
+.call-to-action{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.small-text{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.signup-two{
+    background-color: #3275e1;
+    border-color: #F9FAF8;
+    color: #E5E7EB;
+    /* figure out how to do padding in all directions using padding command*/
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: rgb(215, 215, 215);
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
 }
 
 a {
