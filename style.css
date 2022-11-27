@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
 }
 
 .header {
@@ -10,6 +12,10 @@ body {
     margin-top: 10px;
     background-color: #1F2937;
     margin-bottom: 50px;
+}
+
+button {
+    border-radius: 10px;
 }
 
 .header-left{
@@ -61,19 +67,15 @@ body {
     color: #F9FAF8;
     background-color: #3882F6;
     /* figure out how to do padding in all directions using padding command*/
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 5px 10px;
 }
 
 
-/*Figure out how to create modifiable image element 
 .jpeg{
     width: 400px;
-    height: 300px;
+    height: auto;
 }
-*/
+
 
 .section-two{
     display: flex;
@@ -88,22 +90,30 @@ body {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding: 20px;
 }
 
 .images{
     display: flex; 
     justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
+
 }
 
-/*Figure out how to create modifiable img element for border */
-.image-container-one, .image-container-two, .image-container-three, .image-container-four{
+.image-container{
     display: flex;
     flex-direction: column;
     flex-basis: 1;
     max-width: 200px;
     max-height: 200px;
+    gap: 10px;
+}
+
+.baby{
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .section-three{
@@ -135,10 +145,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* figure out how to do padding in all directions using padding command*/
     padding-bottom: 75px;
     padding-top: 75px;
-    padding-left: px;
 }
 
 .block{
@@ -149,7 +157,8 @@ body {
     align-self: center;
     justify-content: space-evenly;
     /* figure out how to do padding in all directions using padding command*/
-    padding: 50px;
+    padding: 50px 20px;
+    border-radius: 10px;
     color: white;
 }
 
